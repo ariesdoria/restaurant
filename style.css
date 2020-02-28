@@ -221,3 +221,22 @@ header{
     z-index:3;
     float:right;
 }
+.special-recipes-background{
+    width:100%;
+    height:800px;
+    position:absolute;
+    margin-top:764px;
+    background:url(assets/images/special-recipes-background-image.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.special-recipes-main-text-container{
+    width:30%;
+    background:#fff;
+    height:50%;
+    float:left;
+    margin-top:10%;
+    left:185px;
+    z-index:3;
+    position:absolute;
+}
