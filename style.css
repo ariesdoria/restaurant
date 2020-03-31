@@ -369,14 +369,18 @@ header{
     position:absolute;
     margin-top:2600px;
 }
+.menu-container-wrapper{
+    margin:0 auto;
+    width:90%;
+}
 .menu-main-content-container{
     width:100%;
     position:absolute;
-    height:2000px;
+    height:2150px;
     margin-top:-55px;
     background:url(assets/images/menu-background.png);
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .menu-main-heading-content{
     margin:0 auto;
@@ -405,8 +409,8 @@ header{
     background:#fff;
     width:600px;
     position:absolute;
-    left:46%;
-    top:13%;
+    left:48%;
+    top:12%;
     height:460px;
 }
 .menu-wrapper{
@@ -472,7 +476,7 @@ header{
     margin-top: 50px;
 }
 .main-course-container{
-    top:42%;
+    top:40%;
     left:10%;
     background:#fff;
     width:600px;
@@ -481,12 +485,35 @@ header{
 }
 .desserts-picture-container{
     margin-top:50px;
+    z-index: 1;
+    position:absolute;
 }
 .desserts-container{
     background:#fff;
     width:600px;
     position:absolute;
-    left:46%;
-    top:72%;
+    left:48%;
+    top:67%;
     height:460px;
+    z-index:1;
+}
+.dessert-image-separator{
+    margin-top:819px;
+    position:absolute;
+    display:inline-block;
+    z-index:0;
+    left:0px;
+}
+.spaghetti-separator{
+    position:absolute;
+    margin-top:883px;
+    z-index:1;
+    float:right;
+    right:0%;
+}
+.tomato-separator{
+    z-index:1;
+    position:absolute;
+    margin-top: 94%;
+    float:left;
 }
