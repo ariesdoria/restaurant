@@ -517,3 +517,19 @@ header{
     margin-top: 94%;
     float:left;
 }
+.mobile-app-container{
+    background:url(assets/images/mobile-app-background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:4695px;
+    position:absolute;
+    width:100%;
+}
+.mobile-app-wrapper{
+    width:80%;
+    margin:0 auto;
+}
+.mobile-app-container-wrapper{
+    width:70%;
+    margin:0 auto;
+}
