@@ -584,3 +584,87 @@ header{
     position:absolute;
     left:-1%;
 }
+.form-footer{
+    position:absolute;
+    margin-top:5331px;
+    background:#000;
+    width:100%;
+}
+.location{
+    width:25%;
+    left:10%;
+    position:absolute;
+}
+.location-heading-container{
+    margin:0 auto;
+    width:86%;
+}
+.location-heading{
+    font-family:"Pacifico";
+    color:#fff;
+    font-size:1.5em;
+    font-weight: normal !important;
+}
+.location-address{
+    margin: 0 auto;
+    position:absolute;
+    width:100%;
+}
+.address-one{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin: 0 auto;
+    position:absolute;
+    left:17%;
+    font-weight:normal !important;
+}
+.address-two{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin: 0 auto;
+    position:absolute;
+    left:17%;
+    line-height: 60px;
+    font-weight: normal !important;
+}
+.address-three{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin:0 auto;
+    position:absolute;
+    left:25%;
+    line-height: 100px;
+    font-weight: normal !important;
+}
+.location-contact{
+    margin: 0 auto;
+    position:absolute;
+    width:100%;
+}
+.location-phone{
+    color:#fff;
+    font-family: "Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin:0 auto;
+    left:24%;
+    position:absolute;
+    line-height: 200px;
+    font-weight: normal !important;
+}
+.location-email{
+    color:#fff;
+    font-family: "Times New Roman";
+    font-size:1em;
+    margin:0 auto;
+    position:absolute;
+    line-height: 240px;
+    left:12%;
+    font-weight: normal !important;
+}
