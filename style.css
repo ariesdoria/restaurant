@@ -589,6 +589,7 @@ header{
     margin-top:5331px;
     background:#000;
     width:100%;
+    height: 477px;
 }
 .location{
     width:25%;
@@ -667,4 +668,86 @@ header{
     line-height: 240px;
     left:12%;
     font-weight: normal !important;
+}
+.working-hours{
+    width:25%;
+    left:40%;
+    position:absolute;
+}
+.working-hours-content-container{
+    margin:0 auto;
+    width:86%;
+}
+.working-hours-content{
+    font-family:"Pacifico";
+    color:#fff;
+    font-size:1.5em;
+    font-weight: normal !important;
+}
+.restaurant-hours{
+    margin:0 auto;
+    position:absolute;
+    width:100%;
+}
+.restaurant-weekdays{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin: 0 auto;
+    left:13%;
+    position:absolute;
+}
+.restaurant-breakfast-hours{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin:0 auto;
+    left:6%;
+    position:absolute;
+    line-height: 70px;
+    font-weight: normal !important;
+}
+.restaurant-lunch-hours{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    margin:0 auto;
+    left:2%;
+    position:absolute;
+    font-weight: normal !important;
+    line-height: 110px;
+}
+.restaurant-weekends{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin:0 auto;
+    left:13%;
+    position:absolute;
+    line-height:180px;
+}
+.restaurant-brunch{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin: 0 auto;
+    left:6%;
+    position:absolute;
+    font-weight: normal;
+    line-height: 220px;
+}
+.restaurant-weekend-dinner-hours{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    position:absolute;
+    font-weight: normal;
+    left:0%;
+    line-height: 260px;
+    margin:0 auto;
 }
