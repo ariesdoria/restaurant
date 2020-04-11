@@ -588,12 +588,14 @@ header{
     position:absolute;
     margin-top:5331px;
     background:#141414;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOUlEQVQYV43MQQ4AIAgDQfv/R4OYaFChsOfJYvQSNJxMgwouZDMGD2LwQhn8UARD9MIUeUjRhiUyqPw8Cgq7TDlmAAAAAElFTkSuQmCC);
     width:100%;
-    height: 500px;
+    height: 600px;
 }
 .location{
     width:25%;
     left:8%;
+    top:5%;
     position:absolute;
 }
 .location-heading-container{
@@ -671,7 +673,8 @@ header{
 }
 .working-hours{
     width:25%;
-    left:38%;
+    left:35%;
+    top:5%;
     position:absolute;
 }
 .working-hours-content-container{
@@ -753,7 +756,8 @@ header{
 }
 .feedback-form{
     width:25%;
-    left:65%;
+    left:60%;
+    top:5%;
     position:absolute;
 }
 .feedback-form-content-container{
@@ -830,4 +834,13 @@ label, input, textarea {
     position:absolute;
     margin-top:90%;
     left:10%;
+}
+.footer-pasta-image{
+    position:absolute;
+    top:15%;
+}
+.footer-spaghetti-image{
+    position:absolute;
+    top:15%;
+    right:0px;
 }
