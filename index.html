@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Food Restaurant</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.min.css"/>
+    <link rel="stylesheet" href="restaurant-style.css"/>
+    <link rel="stylesheet" href="restaurant.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
     <header>
@@ -140,7 +144,7 @@
 <!--End Special Recipes-->
 <!--Image Separator-->
    <div class="tomato-separator">
-       <img src="assets/images/special-recipes-image-separator.png" alt="special-recipes-separator">
+       <img src="assets/images/special-recipes-image-separator.png" alt="special-recipes-separator" id="tomato-image-separator">
    </div>
 <!--End Image Separator-->
 <!--Delightful Experience-->
@@ -177,7 +181,7 @@
         <!--End Delightful Experience Background Image-->
     <!--Image Separator-->
     <div class="spaghetti-separator">
-        <img src="assets/images/spaghetti-image.png" alt="spaghetti">
+        <img src="assets/images/spaghetti-image.png" alt="spaghetti" id="spaghetti-image-separator">
     </div>
     <!--End Image Separator-->
   </div>
@@ -195,7 +199,7 @@
         <!--Drinks-->
        <!--Drinks Image-->
         <div class="menu-container-wrapper">
-            <img src="assets/images/menu-drink-image.png" alt="wine">
+            <img src="assets/images/menu-drink-image.png" alt="wine" class="menu-wine-image">
             <!--Drinks Menu-->
             <div class="drinks-menu-container">
                <div class="menu-wrapper">
@@ -242,7 +246,7 @@
        <!--Main Course Image-->
         <div class="menu-container-wrapper">
            <div class="main-course-picture-container">
-               <img src="assets/images/menu-main-course-image.png" alt="buttered-chicken">
+               <img src="assets/images/menu-main-course-image.png" class="main-course-picture" alt="buttered-chicken">
            </div>
             <!--Main Course Menu-->
             <div class="main-course-container">
@@ -290,7 +294,7 @@
        <!--Desserts Image-->
         <div class="menu-container-wrapper">
            <div class="desserts-picture-container">
-               <img src="assets/images/menu-dessert-image.png" alt="cake">
+               <img src="assets/images/menu-dessert-image.png" class="desserts-picture" alt="cake">
            </div>
              <!--Desserts Menu-->
             <div class="desserts-container">
@@ -344,108 +348,105 @@
 </div>
 <!--End Menu-->
 <!--Mobile App-->
-<div>
-    <!--Mobile Phone-->
-    <div>
-        <img src="assets/images/mobile-phone.png" alt="iphone">
-    </div>
-    <!--End Mobile Phone-->
-    <!--Mobile Phone Container-->
-    <div>
-       <!--Mobile app announcement-->
-       <div>
-           <h4>Happy to Announce</h4>
-           <h2>Mobile App</h2>
-           <h4>is available in every OS platform</h4>
+<div class="mobile-app-container">
+  <div class="mobile-app-content-container">
+      <div class="mobile-app-wrapper">
+          <div class="mobile-app-container-wrapper">
+              <!--Mobile Phone-->
+                <div class="food-iphone-image-container">
+                    <img src="assets/images/mobile-phone.png" alt="iphone">
+                </div>
+                <!--End Mobile Phone-->
+                <!--Mobile Phone Container-->
+                <div class="app-download-container">
+                   <!--Mobile app announcement-->
+                   <div class="app-download-content-container">
+                       <h4 class="happy-announce">Happy to Announce</h4>
+                       <h2 class="mobile-app">Mobile App</h2>
+                       <h4 class="mobile-app-platform">is available in every OS platform</h4>
+                           <div class="mobile-app-download-container">
+                               <img src="assets/images/google-play-button.png" alt="google-play-button" id="google-play">
+                               <img src="assets/images/app-store-button.png" alt="app-store-button" id="app-store">
+                           </div>
+                   </div>
+                   <!--End Moblie app announcement-->
+                </div>
+            <!--End Mobile Phone Container-->
+          </div>
        </div>
-       <!--End Moblie app announcement-->
-        <!--App and Play Store-->
-        <div>
-            <img src="assets/images/google-play-button.png" alt="google-play-button">
-        </div>
-        <div>
-            <img src="assets/images/app-store-button.png" alt="app-store-button">
-        </div>
-        <!--End App and Play Store-->
-    </div>
-    <!--End Mobile Phone Container-->
+  </div>
 </div>
 <!--End Mobile App-->
-<footer>
+<div class="form-footer">
     <!--Footer left side image-->
-        <div>
-            <img src="assets/images/footer-pasta-image.png" alt="footer-pasta">
+        <div class="footer-pasta-image">
+            <img src="assets/images/footer-pasta-image.png" alt="footer-pasta" id="pasta-image-separator">
         </div>
     <!--End Footer left side image-->
     <!--Location-->
-        <section>
-            <div>
-                <h4>Take it easy with location</h4>
+        <section class="location">
+            <div class="location-heading-container">
+                <h4 class="location-heading">Take it easy with location</h4>
             </div>
             <!--Address and email-->
-            <div>
-                <h6>112-Legere ancillae vix ne.</h6>
-                <h6>Te elit putent propriae eum,</h6>
-                <h6>aliquip nominati</h6>
+            <div class="location-address">
+                <h6 class="address-one">112-Legere ancillae vix ne.</h6>
+                <h6 class="address-two">Te elit putent propriae eum,</h6>
+                <h6 class="address-three">aliquip nominati</h6>
             </div>
-            <div>
-                <h6>phone: 00 000 000</h6>
-                <h6>Email: support@templatemela.com</h6>
+            <div class="location-contact">
+                <h6 class="location-phone">phone: 00 000 000</h6>
+                <h6 class="location-email">Email: support@templatemela.com</h6>
             </div>
             <!--Social Media Icons-->
-            <div>
-                <img src="assets/images/social-media-icons.png" alt="social-media">
+            <div class="social-media-feedback">
+                <img src="assets/images/social-media-icons-3.png" alt="social-media">
             </div>
             <!--End Social Media Icons-->
             <!--End Address and email-->
         </section>
     <!--End Location-->
     <!--Working Hours-->
-        <section>
-            <div>
-                <h4>Working Hours</h4>
+        <section class="working-hours">
+            <div class="working-hours-content-container">
+                <h4 class="working-hours-content">Working Hours</h4>
             </div>
-            <div>
-                <h6>Monday to Friday</h6>
+            <div class="restaurant-hours">
+                <h6 class="restaurant-weekdays">Monday to Friday</h6>
                 <br>
-                <h6>8:00am to 10:00pm(Breakfast)</h6>
-                <h6>11:00am to 10:00pm(Lunch/Diner)</h6>
+                <h6 class="restaurant-breakfast-hours">8:00am to 10:00pm(Breakfast)</h6>
+                <h6 class="restaurant-lunch-hours">11:00am to 10:00pm(Lunch/Diner)</h6>
                 
-                <h6>Saturday & Sunday</h6>
+                <h6 class="restaurant-weekends">Saturday & Sunday</h6>
                 <br>
-                <h6>10:00am to 11:00pm(Brunch)</h6>
-                <h6>11:00am to 12:00pm(Lunch/Dinner)</h6>
+                <h6 class="restaurant-brunch">10:00am to 11:00pm(Brunch)</h6>
+                <h6 class="restaurant-weekend-dinner-hours">11:00am to 12:00pm(Lunch/Dinner)</h6>
             </div>
         </section>
     <!--End Working Hours-->
     <!--Feedback Form-->
-        <section>
-            <div>
-                <h4>Feedback form</h4>
+        <section class="feedback-form">
+            <div class="feedback-form-content-container">
+                <h4 class="feedback-content">Feedback form</h4>
             </div>
-            <div>
-                <input type="text" placeholder="Name">
-                <br>
-                <input type="text" placeholder="Email">
-                <br>
-                <input type="text" placeholder="Phone">
-                <br>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="feedback-form-container">
+                <input type="text" placeholder="Name" class="feedback-name_email_phone">
+                <br><br>
+                <input type="text" placeholder="Email" class="feedback-name_email_phone">
+                <br><br>
+                <input type="text" placeholder="Phone" class="feedback-name_email_phone">
+                <br><br>
+                <textarea name="" placeholder="Message" id="" cols="30" rows="10" class="feedback-message"></textarea>
+                <br><br>
+                <button type="submit" value="submit" name="submit" class="feedback-submit-btn">Submit</button>
             </div>
         </section>
     <!--End Feedback Form-->
     <!--Footer right side image-->
-<!--
-        <div>
-            <img src="assets/images/spaghetti-image.png" alt="spaghetti">
+        <div class=footer-spaghetti-image>
+            <img src="assets/images/spaghetti-image.png" alt="spaghetti" id="spaghetti-image-separator-second">
         </div>
--->
     <!--End Footer right side image-->
-</footer>
-<!--Copyright-->
-    <div>
-        
-    </div>
-<!--End Copyright-->
+</div>
 </body>
 </html>
