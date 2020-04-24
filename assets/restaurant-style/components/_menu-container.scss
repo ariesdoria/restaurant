@@ -1,0 +1,146 @@
+.wrapper{
+    width:90%;
+    height:800px;
+    margin: 0 auto;
+}
+.menu-container{
+    width:100%;
+    position:absolute;
+    margin-top:2600px;
+}
+.menu-container-wrapper{
+    margin:0 auto;
+    width:90%;
+}
+.menu-main-content-container{
+    width:100%;
+    position:absolute;
+    height:2150px;
+    margin-top:-55px;
+    background:url(assets/images/menu-background.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.menu-main-heading-content{
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    text-align:center;
+}
+.menu-text-font-first{
+    font-family:"Pacifico";
+    font-size:2em;
+    padding-top:0px;
+    color:#fff;
+    font-weight: normal !important;
+}
+.menu-text-font-second{
+    font-family:"Times New Roman";
+    font-weight: normal !important;
+    text-transform:uppercase;
+    font-size:4em;
+    margin-top:-55px;
+    color:#fff;
+}
+.drinks-menu{
+    display:none
+}
+.drinks-menu-container{
+    background:#fff;
+    width:600px;
+    position:absolute;
+    left:48%;
+    top:12%;
+    height:460px;
+}
+.menu-wrapper{
+    width:80%;
+    margin:0 auto;
+}
+.drinks-menu-heading-container{
+    position:relative;
+    top:5%;
+}
+.drinks-heading{
+    font-family: "Pacifico";
+    font-size:2em;
+}
+.drinks-menu-list-item{
+    position:relative;
+    left:-8%;
+}
+.drinks-menu-individual-list-item{
+    position:relative;
+    top:-20px;
+}
+.drinks-menu-name{
+    font-size:18px;
+    display:block;
+    width:500px;
+    position:relative;
+    left:-110px;
+    text-align:right;
+    margin-top:-40px;
+}
+.drinks-menu-name-price{
+    font-size:18px;
+    display:block;
+    width:50px;
+    position:relative;
+    left:88%;
+    text-align:right;
+    margin-top:-62px;
+}
+.drinks-menu-01{
+    position: relative;
+    top:-20px;
+}
+.drinks-menu-02{
+    position:relative;
+    top:-40px;
+}
+.drinks-menu-03{
+    position:relative;
+    top:-60px;
+}
+.drinks-menu-04{
+    position:relative;
+    top:-80px;
+}
+.drinks-menu-05{
+    position:relative;
+    top:-100px;
+}
+.main-course-picture-container{
+    text-align: right;
+    margin-top: 50px;
+}
+.main-course-container{
+    top:40%;
+    left:10%;
+    background:#fff;
+    width:600px;
+    position:absolute;
+    height:460px;
+}
+.desserts-picture-container{
+    margin-top:50px;
+    z-index: 1;
+    position:absolute;
+}
+.desserts-container{
+    background:#fff;
+    width:600px;
+    position:absolute;
+    left:48%;
+    top:67%;
+    height:460px;
+    z-index:1;
+}
+.dessert-image-separator{
+    margin-top:819px;
+    position:absolute;
+    display:inline-block;
+    z-index:0;
+    left:0px;
+}

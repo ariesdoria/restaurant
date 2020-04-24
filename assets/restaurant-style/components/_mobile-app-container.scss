@@ -1,0 +1,65 @@
+.mobile-app-container{
+    width:100%;
+    position:absolute;
+    margin-top:4753px;
+    background:url(assets/images/mobile-app-background-image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.mobile-app-content-container{
+    width:100%;
+    position:absolute;
+    background:url(assets/images/mobile-app-background-image.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:-58px;
+    height:auto;
+}
+.mobile-app-wrapper{
+    width:80%;
+    margin:0 auto;
+}
+.mobile-app-container-wrapper{
+    width:80%;
+    margin: 0 auto;
+}
+.food-iphone-image-container{
+    margin-top:50px;
+    position:relative;
+    width:37%;
+    left:7%;
+}
+.app-download-container{
+    position:relative;
+}
+.app-download-content-container{
+    position:absolute;
+    left:45%;
+    margin-top:-60%;
+    width:80%;
+}
+#google-play{
+    width:200px;
+}
+#app-store{
+    width:220px;
+}
+.mobile-app{
+    font-family:"Times New Roman";
+    color:#fff;
+    text-transform:uppercase;
+    font-weight: normal !important;
+    margin-top:-55px;
+}
+.mobile-app-platform{
+    font-family: "Times New Roman";
+    color:#fff;
+    text-transform:uppercase;
+    font-size:2em;
+    font-weight:normal !important;
+    margin-top:-55px;
+}
+.mobile-app-download-container{
+    position:absolute;
+    left:-1%;
+}

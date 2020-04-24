@@ -1,0 +1,253 @@
+
+
+.happy-announce{
+    font-family: "Pacifico";
+    color:#fff;
+    font-size:2em;
+    display:inline-block;
+    font-weight: normal !important;
+}
+.form-footer{
+    position:absolute;
+    margin-top:5331px;
+    background:#141414;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOUlEQVQYV43MQQ4AIAgDQfv/R4OYaFChsOfJYvQSNJxMgwouZDMGD2LwQhn8UARD9MIUeUjRhiUyqPw8Cgq7TDlmAAAAAElFTkSuQmCC);
+    width:100%;
+    height: 600px;
+}
+.location{
+    width:25%;
+    left:8%;
+    top:5%;
+    position:absolute;
+}
+.location-heading-container{
+    margin:0 auto;
+    width:86%;
+}
+.location-heading{
+    font-family:"Pacifico";
+    color:#fff;
+    font-size:1.5em;
+    font-weight: normal !important;
+}
+.location-address{
+    margin: 0 auto;
+    position:absolute;
+    width:100%;
+}
+.address-one{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin: 0 auto;
+    position:absolute;
+    left:17%;
+    font-weight:normal !important;
+}
+.address-two{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin: 0 auto;
+    position:absolute;
+    left:17%;
+    line-height: 60px;
+    font-weight: normal !important;
+}
+.address-three{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin:0 auto;
+    position:absolute;
+    left:25%;
+    line-height: 100px;
+    font-weight: normal !important;
+}
+.location-contact{
+    margin: 0 auto;
+    position:absolute;
+    width:100%;
+}
+.location-phone{
+    color:#fff;
+    font-family: "Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin:0 auto;
+    left:24%;
+    position:absolute;
+    line-height: 200px;
+    font-weight: normal !important;
+}
+.location-email{
+    color:#fff;
+    font-family: "Times New Roman";
+    font-size:1em;
+    margin:0 auto;
+    position:absolute;
+    line-height: 240px;
+    left:12%;
+    font-weight: normal !important;
+}
+.working-hours{
+    width:25%;
+    left:35%;
+    top:5%;
+    position:absolute;
+}
+.working-hours-content-container{
+    margin:0 auto;
+    width:86%;
+}
+.working-hours-content{
+    font-family:"Pacifico";
+    color:#fff;
+    font-size:1.5em;
+    font-weight: normal !important;
+}
+.restaurant-hours{
+    margin:0 auto;
+    position:absolute;
+    width:100%;
+}
+.restaurant-weekdays{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin: 0 auto;
+    left:13%;
+    position:absolute;
+}
+.restaurant-breakfast-hours{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin:0 auto;
+    left:6%;
+    position:absolute;
+    line-height: 70px;
+    font-weight: normal !important;
+}
+.restaurant-lunch-hours{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    margin:0 auto;
+    left:2%;
+    position:absolute;
+    font-weight: normal !important;
+    line-height: 110px;
+}
+.restaurant-weekends{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin:0 auto;
+    left:13%;
+    position:absolute;
+    line-height:180px;
+}
+.restaurant-brunch{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    margin: 0 auto;
+    left:6%;
+    position:absolute;
+    font-weight: normal;
+    line-height: 220px;
+}
+.restaurant-weekend-dinner-hours{
+    color:#fff;
+    font-family:"Times New Roman";
+    font-size:1em;
+    display:inline-block;
+    position:absolute;
+    font-weight: normal;
+    left:0%;
+    line-height: 260px;
+    margin:0 auto;
+}
+.feedback-form{
+    width:25%;
+    left:60%;
+    top:5%;
+    position:absolute;
+}
+.feedback-form-content-container{
+    margin:0 auto;
+    width:86%;
+}
+.feedback-content{
+    font-family:"Pacifico";
+    color:#fff;
+    font-size:1.5em;
+    font-weight: normal !important;
+    right:8%;
+    position:relative;
+}
+.feedback-form-container{
+    margin:0 auto;
+    width:80%;
+    position:absolute;
+    top:93%;
+    left:0%;
+}
+.feedback-name_email_phone{
+    width:370px;
+    height:44px;
+    border-radius:5px;
+    background:#323232;
+    border:0px;
+}
+.feedback-message{
+    width:370px;
+    height:111px;
+    border-radius:5px;
+    background:#323232;
+    border:0px;
+    resize:none;
+}
+.feedback-submit-btn{
+    width:150px;
+    height:45px;
+    background:#e7a331;
+    border:0px;
+    border-radius:5px;
+    font-family:"Times New Roman";
+    color:#fff;
+    font-size:1em;
+}
+.social-media-feedback{
+    position:absolute;
+    margin-top:90%;
+    left:10%;
+}
+.footer-pasta-image{
+    position:absolute;
+    top:15%;
+}
+.footer-spaghetti-image{
+    position:absolute;
+    top:15%;
+    right:0px;
+}
+#pasta-image-separator{
+    height:200px;
+}
+#spaghetti-separator{
+    height:200px;
+}
+#spaghetti-image-separator-second{
+    height: 250px;
+}
+

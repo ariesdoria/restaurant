@@ -1,0 +1,83 @@
+.special-recipes-background{
+    width:100%;
+    height:800px;
+    position:absolute;
+    margin-top:764px;
+    background:url(assets/images/special-recipes-background-image.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.special-recipes-main-text-container{
+    width:30%;
+    background:#fff;
+    height:55%;
+    float:left;
+    margin-top:10%;
+    left:185px;
+    z-index:3;
+    position:relative;
+}
+.special-recipes-image-container{
+    float:right;
+    right:182px;
+    position:relative;
+    top:100px;
+    width:50%;
+    height:70%;
+}
+.special-recipes-heading-container{
+    padding-left:47px;
+    position:relative;
+}
+.special-recipes-main-heading{
+    font-family:"Pacifico";
+    font-size:2em;
+    left:-3px;
+    display:inline-block;
+    font-weight: normal !important;
+}
+.special-recipes-second-heading{
+    font-family:"Times New Roman";
+    text-transform:uppercase;
+    font-size:2em;
+    font-weight: normal !important;
+    position:relative;
+    top:-78px;
+    display:inline-block;
+    left:-3px;
+    padding-right:9px;
+}
+.special-recipes-main-content{
+    padding-right:30px;
+    padding-left:50px;
+    position:relative;
+    top:-50px;
+}
+.special-recipes-button-container{
+    padding-left:50px;
+    padding-right:50px;
+    border-radius:5px;
+    background:#e7a331;
+    width:16%;
+    float:left;
+    left:48px;
+    position:relative;
+    height:40px;
+    top:-20px;
+}
+.special-recipes-link{
+    color:#fff;
+    padding-top:10px;
+    position:relative;
+    display:inline-block;
+    width:500px;
+}
+.tomato-separator{
+    z-index:1;
+    position:absolute;
+    margin-top: 94%;
+    float:left;
+}
+#tomato-image-separator{
+    height:280px;
+}

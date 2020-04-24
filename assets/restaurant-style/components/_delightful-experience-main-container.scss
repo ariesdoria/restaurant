@@ -1,0 +1,73 @@
+.delightful-experience-container{
+    width:100%;
+    height:800px;
+    position:absolute;
+    margin-top:1564px;
+}
+.delightful-experience-image-separator-container{
+    position:absolute;
+    float:left;
+    width:100%;
+    margin-top:-200px;
+}
+.delightful-experience-main-content-container{
+    margin-top:-55px;
+    height:800px;
+    position:absolute;
+    width:100%;
+    background:#fff !important;
+}
+.delightful-experience-main-heading-content{
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    text-align:center;
+}
+.delightful-text-font{
+    font-family:"Pacifico";
+    font-size:2em;
+    padding-top:80px;  
+    font-weight: normal !important;
+}
+.delightful-text-font-second{
+    font-family:"Times New Roman";
+    font-weight:normal !important;
+    text-transform:uppercase;
+    font-size:4em;
+    margin-top:-55px;
+}
+.delightful-images-main-container{
+    max-width: 1200px;
+    width:100%;
+    margin-right: auto;
+    margin-left:auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.delightful-images-main-container > div{
+    width:300px;
+    height:300px;
+    text-align: center;
+}
+.delightful-images-second-main-container{
+    max-width:1200px;
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    top:5%;
+    position:relative;
+    display:flex;
+    flex-wrap:nowrap;
+}
+.delightful-images-second-main-container > div{
+    width:300px;
+    height:300px;
+    text-align:center;
+}
+.spaghetti-separator{
+    position:absolute;
+    margin-top:883px;
+    z-index:1;
+    float:right;
+    right:0%;
+}
