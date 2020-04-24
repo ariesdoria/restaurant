@@ -1,0 +1,143 @@
+//top header
+.order-foods-contact-container{
+    width:100%;
+    height:30px;
+    background:#fff;
+    margin-top:10px;
+    position: relative;
+}
+.order-foods-time-container{
+    float:left;
+    left:40%;
+    position:relative;
+    background:#fff;
+    height:30px;
+    width:40%;
+}
+.order-foods-opening-schedule-container{
+    width:30%;
+    height:50%;
+    position:absolute;
+}
+.order-foods-opening-schedule-container-text{
+    margin-top:-23px;
+    margin-left:34px;
+    position:absolute;
+    font-family:"Arial";
+}
+.order-foods-contact-number-container{
+    width:30%;
+    height:50%;
+    margin-top:0px;
+    margin-left:35%;
+    position:absolute;
+}
+.order-foods-contact-number{
+    margin-top:-23px;
+    margin-left:34px;
+    position:absolute;
+    font-family:"Arial";
+}
+.order-foods-social-media-container{
+    width:40%;
+    height: 50%;
+    margin-top:0px;
+    margin-left:90%;
+    position:absolute;
+}
+.order-foods-menu-container{
+    width:100%;
+    height:100px;
+    background-color: #000 !important;
+    position:relative;
+    opacity: 0.5;
+}
+.order-foods-menu-container-second{
+    position:relative;
+    margin-top:-95px;
+    height:95px;
+    width:100%;
+}
+.order-navigation-h3{
+    display:none !important;
+}
+.order-navigation-menu{
+    float:right;
+    width:59%;
+    display:inline !important;
+    padding-top:20px;
+    position:relative;
+}
+.order-navigation-menu-links{
+    display:inline !important;
+    color:#fff !important;
+    font-family:"Arial";
+    padding-right:45px;
+}
+.order-logo-container{
+    border-color: #e7a331 transparent transparent transparent;
+    border-style: solid;
+    border-width: 200px;
+    height:0px;
+    width:0px;
+    margin-left:125px;
+    margin-top:-146px;
+    z-index:10;
+    position:relative;
+    top:6px;
+}
+.order-logo-h3{
+    display:none !important;
+}
+.order-logo-image{
+    top:-85px;
+    z-index:10;
+    position:relative;
+    margin-top:-250px;
+    margin-left:-106px;
+    width:200px;
+}
+.main-text-banner-container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -180px;
+    position:absolute;
+}
+.main-text-banner-header{
+    color:#fff !important;
+    font-family:"Pacifico";
+    font-size:100px;
+    text-shadow: 2px 2px #000;
+}
+.main-text-banner-content-container{
+    width: 75%;
+    text-align: center;
+    z-index: 10;
+    float: left;
+    margin-left: 13%;
+    margin-top: 80px;
+    position:relative;
+}
+.main-text-banner-content{
+    color: #fff !important;
+    font-family: "Times New Roman";
+    font-size:25px;
+}
+.main-text-banner-button-container{
+    margin-top:265px;
+    border-radius: 10px;
+    width:8%;
+    text-align: center;
+    vertical-align: middle;
+    border:3px solid #fff;
+    margin-left: 46%;
+    padding:13px;
+    position:absolute;
+}
+.main-text-banner-link{
+    color:#fff !important;
+    font-size:18px;
+    font-family: "Times New Roman";
+}
