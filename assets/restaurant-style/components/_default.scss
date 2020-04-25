@@ -7,7 +7,14 @@ ul{
     list-style-type: none !important;
 }
 a{
-    text-decoration: none !important;
+	:hover{
+		.active{
+			:visited{
+				text-decoration:none !important;
+				color:#fff !important;
+			}
+		}
+	}
 }
 header{
     background: url(../images/header-background-image.png);

@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Food Restaurant</title>
-    <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="style.min.css"/>
-    <link rel="stylesheet" href="restaurant-style.css"/>
-    <link rel="stylesheet" href="restaurant.min.css"/>
+    <link rel="stylesheet" href="restaurant-style.min.css"/>
     <link rel="stylesheet" href="restaurant-style/components/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 </head>
@@ -39,13 +37,13 @@
     <div class="order-foods-menu-container-second">
         <h3 class="order-navigation-h3">Order Navigation</h3>
         <ul class="order-navigation-menu">
-            <li class="order-navigation-menu-links">Home</li>
-            <li class="order-navigation-menu-links">Menu</li>
+            <li class="order-navigation-menu-links"><a href="#home">Home</a></li>
+            <li class="order-navigation-menu-links"><a href="#menu">Menu</a></li>
             <li class="order-navigation-menu-links">Pages</li>
-            <li class="order-navigation-menu-links">Delivery</li>
-            <li class="order-navigation-menu-links">News</li>
-            <li class="order-navigation-menu-links">Features</li>
-            <li class="order-navigation-menu-links">Table Booking</li>
+            <li class="order-navigation-menu-links"><a href="#delivery">Delivery</a></li>
+            <li class="order-navigation-menu-links"><a href="#news">News</a></li>
+            <li class="order-navigation-menu-links"><a href="#features">Features</a></li>
+            <li class="order-navigation-menu-links"><a href="#table-booking">Table Booking</a></li>
         </ul>
     </div>
     <!--End Navigation-->
@@ -112,7 +110,7 @@
 <!--End About Section-->
 <!--Special Recipes-->
     <!--Special Recipes Background Image-->
-    <div class="special-recipes-background">
+    <div class="special-recipes-background" id="news">
         <div class="wrapper">
              <!--Special Recipes Text Area-->
             <div class="special-recipes-main-text-container">
@@ -189,7 +187,7 @@
 <!--End Delightful Experience-->
 <!--Menu-->
 <div class="menu-container">
-   <div class="menu-main-content-container">
+   <div class="menu-main-content-container" id="menu">
        <!--Menu Heading-->
         <div class="menu-main-heading-content">
             <h4 class="menu-text-font-first">Amazing</h4>
@@ -350,7 +348,7 @@
 <!--End Menu-->
 <!--Mobile App-->
 <div class="mobile-app-container">
-  <div class="mobile-app-content-container">
+  <div class="mobile-app-content-container" id="features">
       <div class="mobile-app-wrapper">
           <div class="mobile-app-container-wrapper">
               <!--Mobile Phone-->
@@ -378,7 +376,7 @@
   </div>
 </div>
 <!--End Mobile App-->
-<div class="form-footer">
+<div class="form-footer" id="table-booking">
     <!--Footer left side image-->
         <div class="footer-pasta-image">
             <img src="assets/images/footer-pasta-image.png" alt="footer-pasta" id="pasta-image-separator">
